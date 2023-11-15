@@ -1,0 +1,33 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+TaskQueue                                                                         0x0160       4
+SoftTimer                                                                         0x0164       8
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+eep_ErrTaskQueue                                                                  0x0000       1
+eep_ErrSoftTimerQueue                                                             0x0001       1
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+LedBlyeON                                                                         0x0002D      5
+LedBlyeOFF                                                                        0x00032      5
+LedRedON                                                                          0x00037      4
+LedRedOFF                                                                         0x0003B      9
+timer2_comp_isr                                                                   0x00044     28
+main                                                                              0x00060     51
+CPU_Stop                                                                          0x00093      2
+SetTimerTask                                                                      0x00095     52
+InitRTOS                                                                          0x000C9     17
+TaskManager                                                                       0x000DA     43
+SetTask                                                                           0x00105     30
+TimerService                                                                      0x00123     36
+sleep_enable                                                                      0x00147      4
+idle                                                                              0x0014B      8
